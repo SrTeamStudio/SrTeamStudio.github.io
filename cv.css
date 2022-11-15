@@ -207,6 +207,10 @@ body {
     float:left;
     padding: 40px;
   }
+  .menu-rapido li a{
+    text-decoration: none;
+    color: #EAE1DF;
+  }
 
   .overview{
 
