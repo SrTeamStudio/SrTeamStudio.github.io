@@ -11,19 +11,19 @@
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
 	border-radius: 10px;
-	background-color: #072955;
+	background-color: #0E131F;
 }
 
 ::-webkit-scrollbar
 {
 	width: 5px;
-	background-color: #072955;
+	background-color: #0E131F;
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
-	background-color: #76b3f9;
+	background-color: #0BC9CD;
 	background-image: -webkit-linear-gradient(90deg,
 											  transparent,
 											  rgba(0, 0, 0, 0.4) 50%,
@@ -35,13 +35,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #072955;
-    color: #ffffff;
+    background-color: #0E131F;
+    color: #EAE1DF;
   }
   
   .container {
     height: 60px;
-    background-color: #072955;
+    background-color: #0E131F;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -87,7 +87,7 @@ body {
   
   .container .navbar ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #EAE1DF;
     font-weight: 600;
     font-size: 14px;
     display: block;
@@ -98,21 +98,21 @@ body {
   
   .container .navbar ul li .activa {
       text-decoration: none;
-      color: #76b3f9;
+      color: #0BC9CD;
   }
   
   .container .navbar ul li .compra {
     text-decoration: none;
-    color: #072955;
-    background-color: #76b3f9;
+    color: #0E131F;
+    background-color: #0BC9CD;
   }
   
   .container .navbar ul li a:hover {
-    color: #76b3f9;
+    color: #0BC9CD;
   }
   
   .container .navbar ul li .compra:hover {
-    color: #ffffff;
+    color: #EAE1DF;
   }
   
   .container .navbar ul .close {
@@ -127,7 +127,7 @@ body {
   
     padding: 0 10px;
     cursor: pointer;
-    color: #072955;
+    color: #0E131F;
   }
   
   .container .navbar .icon-bar {
@@ -141,7 +141,7 @@ body {
   }
   
   .container .navbar .icon-bar i {
-    background-color: #ffffff;
+    background-color: #EAE1DF;
     height: 2px;
   }
 
@@ -161,7 +161,7 @@ body {
     transform: translate(-50%, -50%);
   }
   .centrado h1{
-    color: #ffffff;
+    color: #EAE1DF;
     font-size: 50px;
     font-weight: 300;
   }
@@ -195,7 +195,7 @@ body {
   .menu-rapido{
     width: 100%;
     height: 40px;
-    background-color: #76b3f9;
+    background-color: #0BC9CD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,7 @@ body {
 
   }
   .overview h5{
-    color: #76b3f9;
+    color: #0BC9CD;
     font-size: 14px;
     margin-left: 10%;
     padding-top: 20px;
@@ -245,7 +245,7 @@ body {
       position: fixed;
       left: 100%;
       flex-direction: column;
-      background: #ffffff;
+      background: #EAE1DF;
       width: 100%;
       height: 100%;
       overflow: auto;
