@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="cv.css">
+    <meta name="description" content="Portafolio">
+    <meta name="author" content="Alejandro Díaz">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="logo"></a>
+            </div>
+        <div class="navbar">
+            <div class="icon-bar" onclick="Show()">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <ul id="nav-lists">
+                <li class="close"><span onclick="Hide()">×</span></li>
+                <li><a href="#estudios">ESTUDIOS</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#skill">SKILLS</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <div class="inicio">
+        <img src="fondo.jpeg" alt="Imagen del motor">
+        <div class="centrado"><h1>Portafolio</h1></div>
+    </div>
+    <!--<div class="info">
+        <div class="info2">
+            Free to download, Unreal Engine comes with everything you need to build and ship successful multi-platform games and location-based entertainment for any genre. With full access to source code, a robust C++ API, and Blueprint visual scripting at your fingertips, you can develop your title any way you like.
+        </div>
+    </div>-->
+
+    <div class="menu-rapido">
+        <ul>
+            <li>01 ESTUDIOS</li>
+            <li>02 PROYECTOS</li>
+            <li>03 SKILLS</li>
+        </ul>
+    </div>
+
+    <div class="overview" id="estudios">
+        <h5>01 ESTUDIOS</h5>
+        <h2>Estudios</h2>
+        <p>HND in Computing Videogames Programming</p>
+        <p>Bachillerato Tecnológico</p>
+        <h2>Voluntariado</h2>
+        <p>Webmaster en IVAO, en la división española (ES-WMA1)</p>
+    </div>
+    <div class="overview" id="proyectos">
+        <h5>02 PROYECTOS</h5>
+        <h2>Tinky Winky y la ciudad de los portales</h2>
+        <p>Proyecto académico en Unity (C#)</p>
+        <p>Diciembre 2022</p>
+        <h2>Galaxian</h2>
+        <p>Proyecto académico en C++</p>
+        <p>Enero 2022</p>
+        <h2>Gravitar</h2>
+        <p>Proyecto académico en C++</p>
+        <p>Marzo 2022</p>
+        <h2>HiCrew!</h2>
+        <p>Proyecto en PHP(Laravel)</p>
+        <p>Junio 2022</p>
+        <h2>Web Thor</h2>
+        <p>Proyecto en HTML / CSS / JavaSript</p>
+        <p>Enero 2022</p>
+        <h2>Web Dead By Dylight</h2>
+        <p>Proyecto académico en HTML / CSS / JavaSript</p>
+        <p>Abril 2022</p>
+    </div>
+    <div class="overview" id="skill">
+        <h5>03 SKILLS</h5>
+        <h2>Lenguajes</h2>
+        <p>C++</p>
+        <p>C#</p>
+        <p>PHP</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <h2>Programas</h2>
+        <p>Adobe Photoshop</p>
+        <p>Blender</p>
+        <p>Unity</p>
+        <h2>Idiomas</h2>
+        <p>Español (Nativo)</p>
+        <p>Inglés (B1)</p>
+    </div>
+    <script>
+        var navList = document.getElementById("nav-lists");
+        function Show() {
+        navList.classList.add("_Menus-show");
+        }
+        
+        function Hide(){
+        navList.classList.remove("_Menus-show");
+        }
+        </script>
+</body>
+</html>
